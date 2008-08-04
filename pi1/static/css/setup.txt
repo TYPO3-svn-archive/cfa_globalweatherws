@@ -1,0 +1,34 @@
+plugin.tx_cfaglobalweatherws_pi1 {
+		_CSS_DEFAULT_STYLE (
+
+.tx-cfaglobalweatherws-pi1 {
+margin-top:20px;
+}
+.tx-cfaglobalweatherws-pi1_desc	{
+float:left; 
+border-bottom:1px solid #CCC; 
+width:100px;
+margin-right:5px;
+padding-left:5px;
+background: transparent url(../typo3conf/ext/cfa_globalweatherws/pi1/static/css/infobox.bg.yellow.jpg) repeat scroll 1% 15%;
+text-align: left;
+}	
+.tx-cfaglobalweatherws-pi1_cnt {
+border-bottom:1px solid #CCC;
+width:200px;	
+background: transparent url(../typo3conf/ext/cfa_globalweatherws/pi1/static/css/input_bg.gif) repeat scroll 0% 0%;
+text-align: left;
+}	
+.tx-cfaglobalweatherws-pi1_error {
+border:1px solid #CCC;
+width:200px;		
+text-align: center;
+}	
+.tx-cfaglobalweatherws-pi1_head	{
+background:transparent url(../typo3conf/ext/cfa_globalweatherws/pi1/static/css/head.jpg) repeat-x scroll 0% 0%;
+color:#CCCCCC;
+text-align:center;
+width:200px;
+}
+)
+}

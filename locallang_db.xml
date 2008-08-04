@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_cfaglobalweatherws_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">Globale Weather Webservice</label>
+			<label index="cfa_globalweatherws.pi_flexform.city_select">City</label>
+			<label index="cfa_globalweatherws.pi_flexform.country_select">Country</label>
+			<label index="cfa_globalweatherws.pi_flexform.country_settings_sheet_title">Country settings</label>
+			<label index="cfa_globalweatherws.pi_flexform.city_settings_sheet_title">City settings</label>	
+		</languageKey>
+                <languageKey index="de" type="array">
+                         <label index="tt_content.list_type_pi1">Globale Weather Webservice</label>
+			<label index="cfa_globalweatherws.pi_flexform.city_select">Stadt</label>
+			<label index="cfa_globalweatherws.pi_flexform.country_select">Land</label>
+			<label index="cfa_globalweatherws.pi_flexform.country_settings_sheet_title">Länder Einstellung</label>
+			<label index="cfa_globalweatherws.pi_flexform.city_settings_sheet_title">Städte Einstellung</label>			
+		</languageKey>
+	</data>
+</T3locallang>

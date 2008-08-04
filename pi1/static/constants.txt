@@ -1,0 +1,4 @@
+# cat=globalweather-basics/template/a; type=string; label=Set your own template file
+templateFile = EXT:cfa_globalweatherws/pi1/template.html
+# cat=globalweather-basics/template/b; type=string; label=Set your own template error file
+errortemplateFile = EXT:cfa_globalweatherws/pi1/errortemplate.html

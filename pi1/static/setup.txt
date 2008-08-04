@@ -1,0 +1,6 @@
+plugin.tx_cfaglobalweatherws_pi1 {   
+   // city = Kassel
+   // country = Germany
+   templateFile = {$templateFile}
+   errortemplateFile = {$errortemplateFile}
+}

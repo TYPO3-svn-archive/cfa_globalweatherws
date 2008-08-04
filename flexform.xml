@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<T3DataStructure>
+<meta>
+<langDisable>1</langDisable>
+</meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:cfa_globalweatherws/locallang_db.xml:cfa_globalweatherws.pi_flexform.country_settings_sheet_title</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <country>
+            <TCEforms>
+              <label>LLL:EXT:cfa_globalweatherws/locallang_db.xml:cfa_globalweatherws.pi_flexform.country_select</label>
+              <config>
+                <type>input</type>
+                <maxitems>1</maxitems>
+                <size>1</size>
+              </config>
+            </TCEforms>
+          </country>
+        </el>
+      </ROOT>
+    </sDEF>
+    <display>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:cfa_globalweatherws/locallang_db.xml:cfa_globalweatherws.pi_flexform.city_settings_sheet_title</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <city>
+            <TCEforms>
+              <label>LLL:EXT:cfa_globalweatherws/locallang_db.xml:cfa_globalweatherws.pi_flexform.city_select</label>
+              <config>
+                <type>select</type>
+		<items type="array"></items>
+                <allownonidvalues>1</allownonidvalues>
+                <itemsProcFunc>tx_cfaglobalweatherws_setCitiesToFlexForm->cityResponse</itemsProcFunc>
+              </config>
+            </TCEforms>
+          </city>      
+        </el>
+      </ROOT>
+    </display>
+  </sheets>
+</T3DataStructure>

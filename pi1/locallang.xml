@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'cfa_globalweatherws'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="cfa_globalweatherws.pi_frontend.location">Location</label>
+			<label index="cfa_globalweatherws.pi_frontend.temperature">Temperature</label>
+			<label index="cfa_globalweatherws.pi_frontend.condition">Sky Condition</label>
+			<label index="cfa_globalweatherws.pi_frontend.wind">Wind</label>
+			<label index="cfa_globalweatherws.pi_frontend.humidity">Humidity</label>
+			<label index="cfa_globalweatherws.pi_frontend.pressure">Pressure</label>
+			<label index="cfa_globalweatherws.pi_frontend.error">This service is not available at the moment</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="cfa_globalweatherws.pi_frontend.location">Ort</label>
+			<label index="cfa_globalweatherws.pi_frontend.temperature">Temperatur</label>
+			<label index="cfa_globalweatherws.pi_frontend.condition">Bedingung</label>
+			<label index="cfa_globalweatherws.pi_frontend.wind">Wind</label>
+			<label index="cfa_globalweatherws.pi_frontend.humidity">Feuchte</label>
+			<label index="cfa_globalweatherws.pi_frontend.pressure">Druck</label>
+			<label index="cfa_globalweatherws.pi_frontend.error">Der Service ist zur Zeit nicht verfügbar</label>
+		</languageKey>
+	</data>
+</T3locallang>
